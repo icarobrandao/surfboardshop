@@ -1,0 +1,50 @@
+@font-face{
+    font-family: 'nunito-semibold';
+    src: url('../fonts/Nunito/Nunito-Light.ttf')
+}
+h1{
+    top: 30px;
+    text-align: center;
+    font-family:'nunito-semibold';
+    font-size: 3.5em;
+    color:#fff;
+}
+#home .parallax-container {
+    height: 100vh;
+}
+#home .parallax{
+    background: url('../img/home-bg.jpg');
+    background-size: cover;
+}
+#section2 .parallax-container, #section3 .parallax-container, #section4 .parallax-container, #section5 .parallax-container{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#section2 h2, #section3 h2, #section4 h2, #section5 h2{
+    top: 30px;
+    font-family: 'nunito-semibold';
+    color: #fff;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 3.5em;
+}
+.btnn {
+    border : none;
+    border-radius: 10px;
+    font-family: 'nunito-semibold';
+    color: #ffffff;
+    font-size: 3em;
+    background:rgba(214,214,214, 0.7);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    
+}
+.btnn:hover {
+    background: rgba(230, 230, 230,0.7);
+    text-decoration: none;
+    color: white;
+}
